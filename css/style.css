@@ -1,0 +1,244 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #f7f7f7;
+}
+section{
+    padding: 80px 0px;
+}
+/*navbar*/
+.navbar-brand{
+    font-size: 30px;
+    color: white;
+}
+.nav-link {
+    color:white;
+    font-size: 19px;
+}
+/*home section*/
+#home{
+    background-image: url(../img/hero-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+   }
+#home h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+#home p{
+    font-weight: 200;
+    font-size: 30px;
+}
+#home .layer{
+background-color: rgba(0, 0,0, 0.5);
+}
+#home p::after{
+    content: "|";
+    animation-name: devolper;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes devolper{
+0%{
+    content: " P|";  
+}
+2%{
+    content: "Ph |";  
+}
+4%{
+    content: " Pho|";  
+}
+6%{
+    content: " Phot|";  
+}
+8%{
+    content: " Photo |";  
+}
+10%{
+    content: " Photog|";  
+}
+12%{
+    content: " Photogr|";  
+}
+14%{
+    content: " Photogra|";  
+}
+16%{
+    content: " Photograp|";  
+}
+18%{
+    content: " Photograph|";  
+}
+20%{
+    content: " Photographer|";  
+}
+22%{
+    content:  "  D|"  
+}
+24%{
+    content:  "  De|";  
+}
+26%{
+    
+    content: "  Dev|";  
+}
+28%{
+    
+    content: "  Deve|";  
+}
+30%{
+    
+    content: "  Devel|";  
+}
+32%{
+    
+    content: "  Develo|";  
+}
+34%{
+    
+    content: "  Develop|";  
+}
+36%{
+     
+    content: "  Develope|";   
+}
+38%{
+     
+    content: "  Developer|";  
+}
+40%{
+    content: " D|"; 
+}
+ 42%{
+    content: " De|"; 
+ }
+ 44%{
+    content: " Des|"; 
+ }
+ 46%{
+    content: " Desi|"; 
+ }
+ 48%{
+    content: " Desig|"; 
+ }
+ 50%{
+    content: " Design|"; 
+ }
+ 52%{
+    content: " Designe|"; 
+ }
+ 54%{
+    content: " Designer|"; 
+ }
+ 56%{
+    content: " F|"; 
+}
+ 58%{
+    content: " Fr|"; 
+ }
+ 60%{
+    content: " Fre|"; 
+ }
+ 62%{
+    content: "Free|"; 
+ }
+ 63%{
+    content: " Freel|"; 
+ }
+ 64%{
+    content: "Freela|"; 
+ }
+ 66%{
+    content: " Freelan|"; 
+ }
+ 68%{
+    content: " Freelanc|"; 
+ }
+ 70%{
+    content: " Freelance|"; 
+ }
+ 72%{
+    content: " Freelancer|"; 
+ }
+}
+
+
+/*about section*/
+#about p{
+   color: #748182;
+ }
+ #about .item p{
+margin: 0;
+ }
+ .lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #748182;
+}
+#about h2::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -2px;
+    left: 0%;
+}
+
+
+/*service*/
+ #services{
+   
+    background-color: #f7f7f7;;
+ }
+ #services h2{
+    font-size: 40px;
+ }
+ #services span ::after{
+    content:" ";
+    position: absolute;
+    height: 5px;
+    background-color: #0078ff;
+    width: 50px;
+    bottom: -10px;
+    left: 48%;
+ }
+ #services .cer {
+    width: 100px;
+    height: 100px;
+   background-color: #fff;
+    border-radius: 50%;
+    border: solid 12px #0078ff;
+    margin-left: 120px;
+    transition: border 0.3s 0.2s;
+    transition : color 0.3s 0.2s;
+    transition: background-color 0.3s ease
+}
+ .servicesico:hover .cer {
+    color: #fff;
+    background-color: #0078ff;
+    border: #fff solid 12px;
+   box-shadow: 0 0 0 10px #cde1f8;
+  }
+#client{
+    background-image: url(../img/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+  
+ /*works*/
+ #works{
+   
+    background-color: #f7f7f7;;
+ }
+ #works h2{
+    font-size: 40px;
+ }
+ #works span ::after{
+    content:" ";
+    position: absolute;
+    height: 5px;
+    background-color: #0078ff;
+    width: 50px;
+    bottom: -10px;
+    left: 48%;
+ }
